@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY BANC - Netbanking & Payment Gateway</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f1f3f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 28px;
+        }
+
+        /* Bank Section Styling */
+        .bank-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .bank {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            width: 150px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .bank img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Payment Section Styling */
+        .payment-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        button img {
+            width: 24px;
+            margin-right: 10px;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MY BANC</h1>
+        <p>Your One-Stop Solution for All Netbanking and Payment Services</p>
+    </header>
+
+    <main>
+        <!-- Section for Bank Netbanking Links -->
+        <section id="netbanking">
+            <h2>Netbanking Links</h2>
+            <div class="bank-container">
+                <!-- List of 20 banks -->
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/State_Bank_of_India_logo.svg/200px-State_Bank_of_India_logo.svg.png" alt="SBI">
+                    <a href="https://www.onlinesbi.com" target="_blank">SBI Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/HDFC_Bank_Logo.svg/200px-HDFC_Bank_Logo.svg.png" alt="HDFC">
+                    <a href="https://netbanking.hdfcbank.com/netbanking/" target="_blank">HDFC Bank Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/ICICI_Bank_Logo.svg/200px-ICICI_Bank_Logo.svg.png" alt="ICICI">
+                    <a href="https://retail.onlinesbi.com/retail/login.htm" target="_blank">ICICI Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Axis_Bank_Logo.svg/200px-Axis_Bank_Logo.svg.png" alt="Axis">
+                    <a href="https://retail.axisbank.co.in/" target="_blank">Axis Bank Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Kotak_Mahindra_Bank_logo.svg/200px-Kotak_Mahindra_Bank_logo.svg.png" alt="Kotak">
+                    <a href="https://www.kotak.com/j1001mp/netapp/MainPage.jsp" target="_blank">Kotak Mahindra Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/YES_BANK_LOGO.svg/200px-YES_BANK_LOGO.svg.png" alt="YES">
+                    <a href="https://www.yesbank.in/" target="_blank">YES Bank Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/PNB_logo.svg/200px-PNB_logo.svg.png" alt="PNB">
+                    <a href="https://netpnb.com/" target="_blank">PNB Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/BOI_Logo.svg/200px-BOI_Logo.svg.png" alt="BOI">
+                    <a href="https://www.bankofindia.co.in/" target="_blank">Bank of India Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Union_Bank_of_India_Logo.svg/200px-Union_Bank_of_India_Logo.svg.png" alt="Union Bank">
+                    <a href="https://www.unionbankonline.co.in/" target="_blank">Union Bank Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Canara_Bank_logo.svg/200px-Canara_Bank_logo.svg.png" alt="Canara Bank">
+                    <a href="https://netbanking.canarabank.in/" target="_blank">Canara Bank Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/IDBI_Bank_logo.svg/200px-IDBI_Bank_logo.svg.png" alt="IDBI">
+                    <a href="https://inet.idbibank.co.in/" target="_blank">IDBI Bank Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Federal_Bank_Logo.svg/200px-Federal_Bank_Logo.svg.png" alt="Federal Bank">
+                    <a href="https://federalbank.co.in/net-banking" target="_blank">Federal Bank Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/IndusInd_Bank_logo.svg/200px-IndusInd_Bank_logo.svg.png" alt="IndusInd Bank">
+                    <a href="https://netbanking.indusind.com/" target="_blank">IndusInd Bank Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Bank_of_Baroda_logo.svg/200px-Bank_of_Baroda_logo.svg.png" alt="Bank of Baroda">
+                    <a href="https://www.bobibanking.com/" target="_blank">Bank of Baroda Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Indian_Bank_logo.svg/200px-Indian_Bank_logo.svg.png" alt="Indian Bank">
+                    <a href="https://www.indianbank.net.in/" target="_blank">Indian Bank Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Syndicate_Bank_logo.svg/200px-Syndicate_Bank_logo.svg.png" alt="Syndicate Bank">
+                    <a href="https://www.syndicatebank.in/" target="_blank">Syndicate Bank Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/UCO_Bank_logo.svg/200px-UCO_Bank_logo.svg.png" alt="UCO Bank">
+                    <a href="https://www.ucobank.com/" target="_blank">UCO Bank Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/IDFC_First_Bank_logo.svg/200px-IDFC_First_Bank_logo.svg.png" alt="IDFC First Bank">
+                    <a href="https://www.idfcfirstbank.com/" target="_blank">IDFC First Bank Netbanking</a>
+                </div>
+                <div class="bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bandhan_Bank_logo.svg/200px-Bandhan_Bank_logo.svg.png" alt="Bandhan Bank">
+                    <a href="https://bandhanbank.com/" target="_blank">Bandhan Bank Netbanking</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section for Payment Gateways -->
+        <section id="payments">
+            <h2>Payment Gateways</h2>
+            <div class="payment-buttons">
+                <button onclick="window.open('https://pay.google.com/', '_blank')">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Pay_%28GPay%29_Logo_%282020%29.svg/512px-Google_Pay_%28GPay%29_Logo_%282020%29.svg.png" alt="Google Pay"> Google Pay
+                </button>
+                <button onclick="window.open('https://www.phonepe.com/', '_blank')">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/PhonePe_Logo.svg/512px-PhonePe_Logo.svg.png" alt="PhonePe"> PhonePe
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 MY BANC - All rights reserved.</p>
+    </footer>
+</body>
+</html>
